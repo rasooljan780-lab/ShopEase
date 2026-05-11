@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Categories - ShopEase</title>
+
+<style>
+
+/* General Style */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#101010;
+    color:white;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+
+/* Page Title */
+.page-title{
+    text-align:center;
+    padding:30px;
+}
+
+/* Category Section */
+.categories{
+    padding:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+   
+}
+
+.cat-box{
+    background:white;
+    padding:20px;
+    width:180px;
+    text-align:center;
+    border-radius:5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+    cursor:pointer;
+   
+}
+
+.cat-box:hover{
+    background:orange;
+    color:white;
+}
+
+.cat-box a{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+}
+/* Footer */
+/* footer{
+    background:#333;
+    color:white;
+    text-align:left;
+    padding:20px;
+    margin-top:40px;
+} */
+ /* Footer */
+#footer{
+    display: flex;
+    justify-content: space-between; /* left + right */
+    align-items: center;            /* same horizontal line */
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    height: 100px;
+}
+
+/* remove bullets */
+.footer-right{
+    list-style: none;
+    display: flex;      /* make items in one row */
+    gap: 20px;         /* space between items */
+    margin: 0;
+    padding: 0;
+  
+}
+
+.footer-right li a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #f4f4f4;
+    
+}
+.footer-right li a:hover{
+    color:orange;
+}   
+ 
+#searchbar{
+    color:white;
+    margin-right:10px;
+}
+#search{
+    padding:5px;
+    border:2px solid #333;
+    border-radius:5px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo"><a href="index.html" style="color: white; text-decoration: none;">ShopEase</a></div>
+
+<div>
+    <label for="search" id="searchbar">Search</label>
+    <input type="search" id="search" placeholder="Search Here">
+</div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="category.html">Categories</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<!-- Page Title -->
+
+<div class="page-title">
+<h1>Shop by Categories</h1>
+<p>Click a category to view products</p>
+</div>
+
+<!-- Categories Section -->
+
+<section class="categories">
+
+<div class="cat-box" ><a href="Electronics.html">Electronics</a></div>
+<div class="cat-box"><a href="Fashion.html">Fashion</a></div>
+<div class="cat-box"><a href="Shoes.html">Shoes</a></div>
+<div class="cat-box"><a href="Accessories.html">Accessories</a></div>
+<div class="cat-box"><a href="Home-Living.html">Home & Living</a></div>
+<div class="cat-box"><a href="Sports.html">Sports</a></div>
+<div class="cat-box"><a href="Books.html">Books</a></div>
+<div class="cat-box"><a href="Toys.html">Toys</a></div>
+
+</section>
+<footer id="footer">
+
+    <div class="footer-left">
+        <p>© 2026 ShopEase | All Rights Reserved</p>
+        <p>
+            Email:
+            <a href="mailto:support@shopease.com">support@shopease.com</a>
+            Phone:
+            <a href="tel:+923350720157">+92 335 0720157</a>
+        </p>
+    </div>
+    <div>
+        <ul class="footer-right">
+            <li> <a href="Terms&Conditions.html">Terms & Conditions</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="orders.html">Orders</a></li>
+            
+        </ul>
+    </div>
+
+</footer>
+
+
+</body>
+</html>
+

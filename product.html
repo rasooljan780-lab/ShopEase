@@ -1,0 +1,189 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Details - ShopEase</title>
+
+<style>
+
+/* General Style */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#333;
+    color:white;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+
+/* Product Section */
+.product-section{
+    padding:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.product-container{
+    background:white;
+    display:flex;
+    gap:40px;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+    max-width:900px;
+}
+
+/* Product Image */
+.product-image img{
+    width:200px;
+    height: 200px;
+}
+
+/* Product Details */
+.product-details h2{
+    margin-top:0;
+}
+
+.price{
+    font-size:22px;
+    color:green;
+    margin:10px 0;
+}
+
+.description{
+    margin:20px 0;
+}
+
+.product-details button{
+    padding:10px 20px;
+    background:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.product-details button:hover{
+    background:orange;
+}
+
+/* Footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:left;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<div class="logo"><a href="index.html" style="color: white; text-decoration: none;">ShopEase</a></div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="category.html">Categories</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+
+</nav>
+</header>
+
+<!-- Product Details -->
+
+<section class="product-section">
+
+<div class="product-container">
+
+<div class="product-image">
+<img src="/image/headphone.png">
+</div>
+
+<div class="product-details">
+
+<h2>Wireless Headphones</h2>
+
+<p class="price">$49</p>
+
+<p class="description">
+Experience high-quality sound with these wireless headphones. 
+They provide excellent bass, noise cancellation, and long battery life. 
+Perfect for music, gaming, and daily use.
+</p>
+
+<p>
+✔ Bluetooth connectivity<br>
+✔ 20 hours battery life<br>
+✔ Comfortable design<br>
+✔ High-quality sound
+</p>
+
+<button>Add to Cart</button>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ShopEase | All Rights Reserved</p>
+<p>
+
+Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@shopease.com" style="color: aqua;" >
+support@shopease.com
+</a>
+Phone: <a href="tel:+923350720157" style="color: aqua;">+92 335 0720157</a>
+</p>
+</footer>
+
+</body>
+</html>
+

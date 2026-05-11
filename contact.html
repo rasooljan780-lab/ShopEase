@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - ShopEase</title>
+
+<style>
+
+/* General Style */
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Header */
+header{
+    background:#333;
+    color:white;
+    padding:15px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    margin:0;
+    padding:0;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+
+/* Contact Section */
+.contact-section{
+    padding:60px 20px;
+    display:flex;
+    justify-content:center;
+}
+
+.contact-container{
+    background:white;
+    padding:30px;
+    border-radius:5px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+    max-width:600px;
+    width:100%;
+}
+
+.contact-container h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.contact-container label{
+    display:block;
+    margin-top:15px;
+}
+
+.contact-container input, 
+.contact-container textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    border-radius:3px;
+    border:1px solid #ccc;
+}
+
+.contact-container textarea{
+    resize:none;
+    height:100px;
+}
+
+.contact-container button{
+    margin-top:20px;
+    width:100%;
+    padding:10px;
+    background:#333;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.contact-container button:hover{
+    background:orange;
+}
+
+/* Footer */
+footer{
+    background:#333;
+    color:white;
+    text-align:left;
+    padding:20px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav>
+
+<div class="logo"><a href="index.html" style="color: white; text-decoration: none;">ShopEase</a></div>
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="shop.html">Shop</a></li>
+<li><a href="category.html">Categories</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="login.html">Login</a></li>
+</ul>
+
+</nav>
+
+</header>
+
+<!-- Contact Form -->
+
+<section class="contact-section">
+
+<div class="contact-container">
+
+<h1>Contact Us</h1>
+
+<form>
+
+<label for="name">Full Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email" required>
+
+<label for="message">Message</label>
+<textarea id="message" placeholder="Write your message" required></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+
+<p style="text-align:center; margin-top:20px;">
+
+Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=support@shopease.com" style="color: rgb(62, 84, 84);" >
+support@shopease.com
+</a>
+Phone: <a href="tel:+923350720157" style="color: rgb(52, 73, 73);">+92 335 0720157</a>
+</p>
+
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 ShopEase | All Rights Reserved</p>
+
+</footer>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
